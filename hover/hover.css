@@ -1,0 +1,83 @@
+.bleue{
+    background-color: blue;
+    height: 586px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+h6{
+    color: black;
+}
+.rouge{
+    background-color: red;
+    height: 586px;
+    text-align: center;
+    padding: 15px;
+}
+.vivi:hover{
+    border-bottom: 2px solid rgb(132, 134, 134);
+    font-weight: bold;
+    color: black;
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+     /* padding: 40px 30px 5px;  */
+    font-size: 15px;
+    color: rgb(132, 134, 134);
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+
+}
+.blanc{
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    height: 100px;
+}
+ h2{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.vert{
+    background-color: rgb(26, 154, 26);
+    height: 586px;
+    text-align: center;
+    padding: 15px;
+}
+.navi:hover{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 2px solid rgb(132, 134, 134);
+    background-color: black;
+} 
+.bic{
+    background-color: rgb(56, 8, 83);
+    height: 586px;
+    text-align: center;
+    padding: 15px;
+}
+.fifi:hover{
+    background-color: rgb(127, 137, 137);
+    color: black;
+}
+
+
+
+.jaune{
+    background-color: rgb(255, 255, 0);
+    height: 586px;
+    text-align: center;
+    padding: 15px;
+}
+.of:hover{
+    background-color: yellow;
+}
+

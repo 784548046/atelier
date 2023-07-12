@@ -1,0 +1,145 @@
+ /* nav{
+    background-color: aqua;
+    height: 80px;
+    width: 1170px;
+    margin-left: 100px;
+    flex-grow: all;
+    display: flex;
+
+}
+aside{
+    background-color: aqua;
+    height: 500px;
+    width: 100px;
+    display: flex;
+}
+footer{
+    background-color: aqua;
+    height: 100px;
+    width: 900px;
+    margin-left: 200px;
+    margin-top: 50px;
+    flex-basis: 50px;
+    flex-grow: all;
+    display: flex;
+    margin-right: 100px;
+    
+}
+.carre1{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+}
+.carre2{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+}
+.verticale1{
+    background-color: aqua;
+    width: 40px;
+    height: 250px;
+}
+.verticale2{
+    background-color: aqua;
+    width: 40px;
+    height: 250px;
+}
+.verticale3{
+    background-color: aqua;
+    width: 40px;
+    height: 250px;
+}
+.horizontale{
+    background-color: aqua;
+    width: 400px;
+    height: 25px;
+    margin-top: 300px;
+    position: relative;
+    left: -150px;
+}
+.carre0{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+}
+.verticale0{
+    display: flex;
+    gap: 95px;
+    padding: 30px;
+    position: relative;
+    right: -200px;
+}
+.tout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -500px;
+} */
+
+.navbar{
+    background-color: aqua;
+    width: 86%;
+    height: 90px;
+    display: flex;
+    margin-left: 140px;
+}
+.items1{
+    background-color: aqua;
+    width: 170px;
+    height: 170px;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.items2{
+    background-color: aqua;
+    width: 170px;
+    height: 170px;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.sidebar1{
+    background-color: aqua;
+    width: 40px;
+    height: 190px;
+    margin-left: 500px;
+    margin-top: -360px;
+}
+.sidebar2{
+    background-color: aqua;
+    width: 30px;
+    height: 190px;
+    margin-left: 600px;
+    margin-top: -190px;
+}
+.sidebar3{
+    background-color: aqua;
+    width: 40px;
+    height: 190px;
+    margin-left: 700px;
+    margin-top: -190px;
+}
+.footer1{
+    background-color: aqua;
+    width: 20%;
+    height: 40px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.sidebar{
+    background-color: aqua;
+    width: 130px;
+    height: 530px;
+    display: flex;
+    margin-top: -290px;
+}
+.footer{
+    background-color: aqua;
+    width: 60%;
+    height: 90px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: -130px;
+    display: flex;
+}

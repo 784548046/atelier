@@ -1,0 +1,59 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+.astuce {
+    background-color: rgb(138, 197, 236);
+    position: relative;
+    padding: 24px;
+    margin: 24px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 90px;
+}
+.astuce::before {
+    content : '';
+    background-color: rgb(30, 89, 141);
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    top : 0;
+    left: 0;
+    margin-left: 300px;
+     display: none;
+    animation: laby 2s;
+}  
+.astuce::after {
+    content : '';
+    background-color: rgb(241, 24, 162);
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    top : 0;
+    left: 0;
+    margin-left: -300px;
+    display: none; 
+    animation: laby 2s;
+    animation-delay: 3s;
+} 
+ .astuce:hover::before{
+    display: block;
+
+}
+.astuce:hover::after{
+    display: block;
+} 
+@keyframes laby {
+    0%{
+        transform: rotate(0deg);
+    }    
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+

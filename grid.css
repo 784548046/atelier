@@ -1,0 +1,39 @@
+.parent{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 50px 400px 50px;
+    gap: 10px;
+}
+.header{
+    background-color: rgb(179, 136, 244);
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.footer{
+    background-color: rgb(30, 190, 76);
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.left{
+    background-color: rgb(242, 242, 59);
+}
+.content{
+    background-color: rgb(130, 26, 26);
+}
+@media only screen and (max-width: 600px){
+    .left{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .content{
+        grid-column-start: 1;
+        grid-column-end: 3; 
+
+        
+    }
+    .parent{
+        display: grid;
+        grid-template-rows: 100% 100% 500% 100%;
+        gap: 10px;
+    }
+}
